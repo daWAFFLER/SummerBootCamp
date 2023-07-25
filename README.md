@@ -17,3 +17,8 @@ A few resources to get you started if this is your first HTML/CSS/JS project:
 For help getting started with development, view the
 [online documentation(none yet)](), which offers tutorials,
 samples, guidance on web development, and a full API reference.
+
+https://coolors.co/be7c4d-92140c-353238-be5a38-c1b4ae
+https://coolors.co/af9164-f7f3e3-b3b6b7-6f1a07-2b2118
+
+color pallets for later

@@ -23,6 +23,8 @@ header {
     font-weight: 300;
     padding: 15px;
     justify-content: center;
+    height: 50px;
+    margin-bottom: 20px;
 }
 
 header h1 {
@@ -63,14 +65,14 @@ header li :hover {
 }
 
 .card {
-    width: 28%;
+    width: 25%;
     background-color: white;
     color: #1e2d2fe8;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     padding: 15px;
-    min-width: 280px;
+    min-width: 300px;
 }
 
 .card h2 {
@@ -147,4 +149,23 @@ footer div {
     .business_information {
         grid-row: 3;
     }
+}
+
+ul {
+    text-align: center;
+    <!-- list-style-position: inside; -->
+}
+
+.no_bullets {
+  list-style-type: none;
+}
+
+.page_title {
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
 }
