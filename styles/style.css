@@ -4,7 +4,9 @@
   --silver: #b3b6b7;
   --barnred: #6f1a07;
   --bistre: #2b2118;
-  --eerieblack: #1E1B18
+  --eerieblack: #3c2014;
+  --dun: #d3c2a4;
+  --taupe: #3e352d;
 }
 
 * {
@@ -28,7 +30,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color: var(--dun);
     font-weight: 300;
     padding: 15px;
     justify-content: center;
@@ -99,7 +101,7 @@ button {
 }
 
 footer {
-    background-color: gray;
+    background-color: var(--taupe);
     color: white;
     
     display: grid;
@@ -176,7 +178,9 @@ ul {
 
 main {
   max-width: 1000px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
 }
 
 main h1{
@@ -205,9 +209,17 @@ footer {
   border-radius: 5px;
 }
 
-.fixbottom{
+/*footer{
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+}*/
+
+footer{
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
 }
