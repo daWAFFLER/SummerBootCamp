@@ -1,3 +1,12 @@
+:root {
+  --lion: #af9164;
+  --cosmiclatte: #f7f3e3;
+  --silver: #b3b6b7;
+  --barnred: #6f1a07;
+  --bistre: #2b2118;
+  --eerieblack: #1E1B18
+}
+
 * {
     font-family: sans-serif;
     margin: 0;
@@ -57,7 +66,7 @@ header li :hover {
 
 .content {
     padding: 74px 50px;
-    background-color: #f7f7f7;
+    background-color: var(--bistre);
     display: flex;
     gap: 35px;
     flex-wrap: wrap;
@@ -66,8 +75,8 @@ header li :hover {
 
 .card {
     width: 25%;
-    background-color: white;
-    color: #1e2d2fe8;
+    background-color: var(--lion);
+    color: var(--cosmiclatte);
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -81,7 +90,7 @@ header li :hover {
 
 button {
     width: 50%;
-    background-color: gray;
+    background-color: var(--barnred);
     color: white;
     padding: 12px 0;
     border: none;
@@ -168,4 +177,37 @@ ul {
 main {
   max-width: 1000px;
   margin: auto;
+}
+
+main h1{
+  color: var(--silver);
+}
+
+header h1{
+  color: var(--barnred);
+}
+
+html{
+  background-color: var(--eerieblack);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.homeimage{
+  border-radius: 5px;
+}
+
+.fixbottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
