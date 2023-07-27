@@ -1,12 +1,13 @@
 :root {
-  --lion: #af9164;
-  --cosmiclatte: #f7f3e3;
-  --silver: #b3b6b7;
-  --barnred: #6f1a07;
-  --bistre: #2b2118;
-  --eerieblack: #3c2014;
-  --dun: #d3c2a4;
-  --taupe: #3e352d;
+  --cards: #af9164;
+  --text: #f7f3e3;
+  --header2: #b3b6b7;
+  --header1: #6f1a07;
+  --background: #2b2118;
+  --background2: #3c2014;
+  --heading: #d3c2a4;
+  --footer: #3e352d;
+  --button: #4D1E10;
 }
 
 * {
@@ -30,7 +31,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: var(--dun);
+    background-color: var(--heading);
     font-weight: 300;
     padding: 15px;
     justify-content: center;
@@ -68,7 +69,7 @@ header li :hover {
 
 .content {
     padding: 74px 50px;
-    background-color: var(--bistre);
+    background-color: var(--background);
     display: flex;
     /* flex-direction: row; */
     gap: 35px;
@@ -78,8 +79,8 @@ header li :hover {
 
 .card {
     width: 25%;
-    background-color: var(--lion);
-    color: var(--cosmiclatte);
+    background-color: var(--cards);
+    color: var(--text);
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -93,7 +94,7 @@ header li :hover {
 
 button {
     width: 50%;
-    background-color: var(--barnred);
+    background-color: var(--button);
     color: white;
     padding: 12px 0;
     border: none;
@@ -102,7 +103,7 @@ button {
 }
 
 footer {
-    background-color: var(--taupe);
+    background-color: var(--footer);
     color: white;
     
     display: grid;
@@ -188,15 +189,15 @@ main {
 }
 
 main h1{
-  color: var(--silver);
+  color: var(--text);
 }
 
 header h1{
-  color: var(--barnred);
+  color: var(--header1);
 }
 
 html{
-  background-color: var(--eerieblack);
+  background-color: var(--background2);
 }
 
 body {
@@ -211,6 +212,7 @@ footer {
 
 .homeimage{
   border-radius: 5px;
+  width: 100%;
 }
 
 /*footer{
