@@ -8,9 +8,10 @@
   <meta name="description" content="Landing page for Ryker Swensen Fun Site">
   <script src="./scripts/slide.js" defer></script>
   <script src="./scripts/dadJoke.js" defer></script>
-  <title>Summer Bootcamp Template</title>
+  <title>Behold mortals! My domain!</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/spoiler.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
@@ -47,18 +48,18 @@
           <div class="mySlides">
             <img
               src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg"
-              width="200px">
+              height="180px">
           </div>
           <div class="mySlides">
             <img
               src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/cute-snowshoe-cat-square-elisabeth-lucas.jpg"
-              width="200px">
+              height="180px">
           </div>
 
           <div class="mySlides">
             <img
               src="https://play-lh.googleusercontent.com/O8mvDQlw4AwmGfUrh4lviZD_PwwhRHz2etA25F77SbXrm3qEHOt2826aNkKar4D0yw"
-              width="200px">
+              height="180px">
           </div>
           <div style="text-align: center;">
             <span class="dot" onclick="currentSlide(1)"></span>
@@ -71,33 +72,29 @@
 
       <!--This is content card 1-->
       <div class="card">
-        <ul class="no_bullets">
-          <li>
-            Cat
-          </li>
-          <li>
-            Dog
-          </li>
-          <li>
-            Frog
-          </li>
-          <li>
-            SCREET!
-          </li>
-        </ul>
+        <h2>
+          You'll get rattled...
+        </h2>
+        <br>
+        <div class="spoiler">
+	<input id="spoiler-check" type="checkbox">
+	<img src="https://i.kym-cdn.com/photos/images/original/002/595/427/cb4" alt="Your alt text, very important!" height=100% width=100%>
+	<label for="spoiler-check" class="spoiler-button">Show</label>
+      </div>
       </div>
       <!--This is content card 2-->
       <div class="card">
         <h2>
-          Favourite Youtuber
+          Shortest Video Ever
         </h2>
-        <iframe class="video" src="https://www.youtube.com/embed/qHpLCsZ2fTs" title="YouTube video player"
+        <iframe class="video" src="https://www.youtube.com/embed/tPEE9ZwTmy0" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
       </div>
       <div class="card">
-        <button onclick="newJoke()">Get a joke!</button>
+        <button onclick="newJoke()"><h2>Take a complimentary dad joke!</h2></button>
+        <br>
         <div id="dad-joke"></div>
       </div>
       <div class="card">
@@ -107,9 +104,12 @@
       </div>
       <!--This is content card 3-->
       <div class="card">
+        <h2>
+          My favourite game's soundtrack!
+        </h2>
         <iframe style="border-radius:12px"
           src="https://open.spotify.com/embed/playlist/43nNo8bqXImq4G2hEYo7Bm?utm_source=generator" width="100%"
-          height="352" frameBorder="0" allowfullscreen="" allow="autoplay; 
+          height="200" frameBorder="0" allowfullscreen="" allow="autoplay; 
     clipboard-write; 
     encrypted-media; 
     fullscreen; 

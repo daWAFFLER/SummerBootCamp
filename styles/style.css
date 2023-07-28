@@ -85,7 +85,8 @@ header li :hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     padding: 15px;
-    min-width: 300px;
+    width: 300px;
+    height: 250px
 }
 
 .card h2 {
@@ -93,7 +94,7 @@ header li :hover {
 }
 
 button {
-    width: 50%;
+    width: 80%;
     background-color: var(--button);
     color: white;
     padding: 12px 0;
@@ -265,3 +266,14 @@ footer{
     .active, .dot:hover {
       background-color: #717171;
     }
+
+.rolled {
+  background-image: url("https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif");
+  background-size: 320px 320px;
+  height: 1000000000px;
+  width: 1000000000px;
+}
+
+header{
+  z-index: 90;
+}
